@@ -10,16 +10,14 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar"> <!--les deg opp på aria-label-->
+
             <!-- Logo -->
-            <a href="index.html" class="nav-logo">
-                    <span>Min Nettbutikk</span>
+            <a href="index.html" class="nav-logo"><span>Logo</span></a>
             
-                
-            </a>
             <!-- Navigasjonslenker -->
             <ul class="nav-links">
-                <li><a href="#">Hjem</a></li>
+                <li><a href="index.html">Hjem</a></li>
                 <li><a href="#">Produkter</a></li> <!--Lenk slik at den går ned til podukter når du har laget seksjoen-->
                 <li><a href="#">Kategorier</a></li> <!--Lenk slik at den går ned til kategorier når du har laget seksjoen-->
                 <li><a href="#">Kontakt oss</a></li><!--Lenk slik at den går ned til footer (kontakt oss) når du har laget seksjoen-->
@@ -37,5 +35,94 @@
             </ul>
         </nav>
     </header>
+
+    <!--Hovedinholdet-->
+
+    <main>
+
+        <!--Mine Seksjoner-->
+    
+        <section></section> <!--Seksjon 1(Banner):-->
+
+        <section></section> <!--Seksjon 2 (Våre mest populære produkter):-->
+
+        <section></section> <!--Seksjon 3 (Våre med populære kategorier):-->
+
+        <section></section> <!--Seksjon 4 (Anmeldelser):-->
+    </main>
+    
+    
+    <!--Footer-->
+
+    <footer>
+        <!--Seksjon 1: Logo og ingress-->
+         <section class="footer-logo-ingress">
+            <a href="index.html" class="nav-logo"><span>Logo</span></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur ante in egestas feugiat. Integer.</p> <!--Lorem ipsum-->
+         </section>
+         <!--Seksjon 2: Kontakt-->
+         <section class="footer-kontakt">
+            <h3>Kontakt</h3>
+            <address>
+                <ul class="kontakt-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>B R A veien 4, 1783 Halden</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <p>Telefon: +47 123 45 678</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <p>E-post: <a href="mailto:hiof@student.no">hiof@student.no</a></p>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <p>Åpningstider: Man-fre 10:00-17:00</p>
+                    </li>
+                </ul>
+            </address>
+        </section>
+         <!--Seksjon 3: Snarveier-->
+         <section class="footer-snarvei">
+            <nav class="footer-nav"> <!--les deg opp på aria-label-->
+                <h3>Snarveier</h3>
+                <ul>
+                    <li><a href="#">Produkter</a></li> <!--Lenk slik at den går ned til podukter når du har laget seksjoen-->
+                    <li><a href="#">Kategorier</a></li> <!--Lenk slik at den går ned til kategorier når du har laget seksjoen-->
+                    <li><a href="#">Kontakt oss</a></li><!--Lenk slik at den går ned til footer (kontakt oss) når du har laget seksjoen-->
+                </ul>
+
+            </nav>
+         </section>
+         <!--Seksjon 4: Sosiale medier-->
+         <section class="footer-some">
+            <h3>Følg Oss</h3>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank"><!--les deg opp på aria-label og span-->
+                        <i class="fab fa-instagram"></i> 
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank"><!--les deg opp på aria-label og span-->
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank"><!--les deg opp på aria-label og span-->
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.com" target="_blank"><!--les deg opp på aria-label og span-->
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>  
+                </li>
+            </ul>
+         </section>
+
+    </footer>
 </body>
 </html>
